@@ -1,0 +1,25 @@
+body{
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    border-style: none;
+    margin: 18px;
+}
+.account{
+    display: inline-block;
+    display: flex;
+}
+.menu{
+    top: 23px;
+    left: 473px;
+    width: 663px;
+    height: 63px;
+    opacity: 1;
+}
+.Top_Menu{
+    width: fit-content;
+    height: 41px;
+    border-radius: 41px;
+}
