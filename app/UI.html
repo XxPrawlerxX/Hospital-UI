@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="UI.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <seciton>
@@ -42,11 +45,11 @@
                 </div>
             </div>
         </seciton>
-        <section>
-            <div>
-                <div class="Patients_bold manrope_extrabold"></div>
+        <section class="pagebody">
+            <div class="1st_col">
+                <div class="Patients_bold manrope_extrabold">Patients</div>
                 <div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 8.png"></div>
                         <div class="nameid ">
                             <div class="name manrope_bold">Emily Williams</div>
@@ -54,7 +57,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 1.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Ryan Johnson</div>
@@ -62,7 +65,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 3.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Brandon Mitchel</div>
@@ -70,15 +73,15 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
-                        <div class="dp"><img src="Layer 2.png"></div>
+                    <div class="patient_list">
+                        <div class="dp"><img src="Layer 2.png"class="reduced"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Jessica Taylor</div>
                             <div class="gender_age manrope_regular">Female, 28</div>
                         </div>
-                        <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
+                        <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg" ></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 6.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Samantha Johnson</div>
@@ -86,7 +89,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 12.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Ashley Martinez</div>
@@ -94,7 +97,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 10.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Olivia Brown</div>
@@ -102,7 +105,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 9.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Tyler Davies</div>
@@ -110,7 +113,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 4.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Kevin Anderson</div>
@@ -118,7 +121,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 5.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Dylan Thompson</div>
@@ -126,7 +129,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="Layer 7.png"></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Nathan Evans</div>
@@ -134,7 +137,7 @@
                         </div>
                         <div class="h3_dots"><img src="more_horiz_FILL0_wght300_GRAD0_opsz24.svg"></div>
                     </div>
-                    <div>
+                    <div class="patient_list">
                         <div class="dp"><img src="pexels-photo-1222271.png "></div>
                         <div class="nameid">
                             <div class="name manrope_bold">Mike Nolan</div>
@@ -144,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="2nd_col">
                 <div class="middle_title manrope_extrabold" id="diag_hist">Diagnostics History</div>
                 <div>
                     <div>
@@ -193,40 +196,40 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="3rd_col">
                 <div class="dp_name">
                     <div class="dpbig"><img src="Layer 2.png" alt="Patient Photo"></div>
-                    <div class="namebig">Jessica Taylor</div>
+                    <div class="namebig manrope_extrabold">Jessica Taylor</div>
                 </div>
-                <div>
+                <div class="patient_info">
                     <div class="test_img"><img src="BirthIcon.svg"></div>
                     <div class="texts">
                         <p class="light_txt manrope_medium">Date Of Birth</p>
                         <p class="bold_txt manrope_bold">August 23, 1996</p>
                     </div>
                 </div>
-                <div>
+                <div class="patient_info">
                     <div class="test_img"><img src="FemaleIcon.svg"></div>
                     <div class="texts">
                         <p class="light_txt manrope_medium">Gender</p>
                         <p class="bold_txt manrope_bold">Female</p>
                     </div>
                 </div>
-                <div>
+                <div class="patient_info">
                     <div class="test_img"><img src="PhoneIcon.svg"></div>
                     <div class="texts">
                         <p class="light_txt manrope_medium">Contact Info</p>
                         <p class="bold_txt manrope_bold">(415) 555-1234</p>
                     </div>
                 </div>
-                <div>
+                <div class="patient_info">
                     <div class="test_img"><img src="PhoneIcon.svg"></div>
                     <div class="texts">
                         <p class="light_txt manrope_medium">Emergency Contacts</p>
                         <p class="bold_txt manrope_bold">(415) 555-5678</p>
                     </div>
                 </div>
-                <div>
+                <div class="patient_info">
                     <div class="test_img"><img src="InsuranceIcon.svg"></div>
                     <div class="texts">
                         <p class="light_txt manrope_medium">Insurance Provider
@@ -235,29 +238,27 @@
                         <p class="bold_txt manrope_bold">Sunrise Health Assurance</p>
                     </div>
                 </div>
-                    <button class="show_info">Show All Information</button>
-            </div>
-            <div>
-                <div>Lab Results</div>
+                <button class="show_info manrope_bold">Show All Information</button>
+                <div class="results_title manrope_extrabold">Lab Results</div>
                 <div>
                     <div class="result_list">
-                        <div class="result_type">Blood Test</div>
+                        <div class="result_type manrope_regular">Blood Test</div>
                         <div class="download"><img src="download_FILL0_wght300_GRAD0_opsz24 (1).svg"></div>
                     </div>
                     <div class="result_list">
-                        <div class="result_type">Ct Scan</div>
+                        <div class="result_type manrope_regular">Ct Scan</div>
                         <div class="download"><img src="download_FILL0_wght300_GRAD0_opsz24 (1).svg"></div>
                     </div>
                     <div class="result_list">
-                        <div class="result_type"> Radiology Reports</div>
+                        <div class="result_type manrope_regular">Radiology Reports</div>
                         <div class="download"><img src="download_FILL0_wght300_GRAD0_opsz24 (1).svg"></div>
                     </div>
                     <div class="result_list">
-                        <div class="result_type">X-Rays</div>
+                        <div class="result_type manrope_regular">X-Rays</div>
                         <div class="download"><img src="download_FILL0_wght300_GRAD0_opsz24 (1).svg"></div>
                     </div>
                     <div class="result_list">
-                        <div class="result_type">Urine Tests</div>
+                        <div class="result_type manrope_regular">Urine Tests</div>
                         <div class="download"><img src="download_FILL0_wght300_GRAD0_opsz24 (1).svg"></div>
                     </div>
                 </div>
