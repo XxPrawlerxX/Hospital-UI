@@ -25,6 +25,8 @@ body{
     font-size: 24px;
     font-weight: 800;
     color: #072635;
+    line-height: 41px;
+
 }
 .bigger_text{
     font-size: 30px;
@@ -189,11 +191,13 @@ body{
 .diag_frame{
     height: max-content;
     display: flex;
+    max-width: 766px;
     width: 766px;
 }
 .diag_list{
     text-align: left;
     max-height: auto;
+    max-width: 770px;
     width: 770px;
 }
 thead{
