@@ -1,0 +1,11 @@
+.sidelist{
+    justify-items: center;
+    align-content: space-evenly;
+
+}
+.manrope_regular{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #072635;
+}
