@@ -1,6 +1,8 @@
-.sidelist{
+.y_axis{
     justify-items: center;
     align-content: space-evenly;
+    display: flex;
+    flex-direction: column;
 
 }
 .manrope_regular{
@@ -8,4 +10,58 @@
     font-size: 14px;
     font-weight: normal;
     color: #072635;
+    line-height: 22px;
+}
+.manrope_extrabold{
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #072635;
+    line-height: 41px;
+    
+}
+.top_area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
+}
+.x_axis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: left;
+    width: 600px;
+
+}
+.drop_down{
+    max-width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+}
+.actual_x{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    justify-items: stretch;
+    width: 500px;
+    justify-items: flex-start;
+}
+.y_screen{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.x_start{
+    width: 100px;
 }
