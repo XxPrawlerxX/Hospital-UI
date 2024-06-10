@@ -25,6 +25,7 @@ body{
         opacity: 0;
     }
 }
+
 .manrope_bold{
     font-family: "Manrope", sans-serif;
     font-size: 14px;
@@ -67,6 +68,7 @@ body{
 }
 .logo{
     grid-column: 1/2;
+    @media (max-width:400px){}
 }
 .account{
     display: flex;
@@ -78,49 +80,38 @@ body{
     justify-content: space-evenly;
     padding-left: 24px;
     align-content: self-end;
+    @media (max-width:400px){}
 }
 .pic{
     padding-left: 40px;
     padding-right: 0px;
+    @media (max-width:400px){}
 }
 .accname{
     width: max-content;
     padding-left: 8px;
     padding-right: 16px;
+    @media (max-width:400px){}
 }
 
 .three_dots{
     padding-left: 16px;
     padding-right: 16px;
+    @media (max-width:400px){}
 }
 .menu{
- /*   width: 663px;
-    height: 63px;
-    opacity: 1;
-    align-items: center;
-    display: flex ;
-    /*align-content: space-evenly;*/
-    /*justify-content: space-around;
-    justify-items: center;
-    flex-wrap: nowrap;
-    grid-column: 2/4;*/
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    @media (max-width:400px){}
 }
 .top_patients{
     background-color: #01F0D0;
+    @media (max-width:400px){}
 }
 .Top_Menu{
-    /*
-    align-items: center;
-
-    align-content: space-evenly;
-    justify-content: space-around;
-    justify-items: center;
-    */
     height: 41px;
     border-radius: 41px;
     border: none;
@@ -134,14 +125,17 @@ body{
     grid-template-columns: 1fr 2fr;
     padding-left: 16px;
     padding-right: 16px;
+    @media (max-width:400px){}
 }
 .main_col{
     border-radius: 16px;
     border: none;
     background-color: #FFFFFF;
+    @media (max-width:400px){}
 }
 .Patients_bold{
     padding-left: 16px;
+    @media (max-width:400px){}
 }
 .patient_list{
     height: 48px;
@@ -154,16 +148,20 @@ body{
     align-items: center;
     justify-content: flex-start;
     justify-content: space-between;
+    @media (max-width:400px){}
 }
 .patient_container{
     display: flex ;
     align-items: center;
+    @media (max-width:400px){}
 }
 .nameid{
     padding-left: 10px;
+    @media (max-width:400px){}
 }
 .patient_frame{
     display: flex;
+    @media (max-width:400px){}
 }
 .scroll_cover0{
     width: 6px;
@@ -171,38 +169,44 @@ body{
     background-color: #FFFFFF;
     border-radius:3px;
     justify-content: center;
+    @media (max-width:400px){}
 }
 .scroll_cover0:hover{
     background-color: #929292;
+    @media (max-width:400px){}
 }
 .scroll3{
     width: 6px;
     height: 120px;
     background-color: #072635;
     border-radius: 3px;
+    @media (max-width:400px){}
 }
 .scroll3:hover{
     width: 8px;
     border-radius: 4px;
     margin-left: -1px;
     margin-right: 0px;
+    @media (max-width:400px){}
 }
 .dp{
     height: 48px;
     width: 48px;
-    
+    @media (max-width:400px){}    
 }
 .reduced{
     height: 48px;
     width: 48px;
-
+    @media (max-width:400px){}
 }
 .pagebody{
     display: flex;
     justify-content: space-around;
+    @media (max-width:400px){}
 }
 .sec_col{
     width: 766px;
+    @media (max-width:400px){}
 }
 .result_frame{
     display: flex;
@@ -210,31 +214,38 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    @media (max-width:400px){}
 }
 .diag_frame{
     height: max-content;
     display: flex;
     max-width: 766px;
     width: 766px;
+    @media (max-width:400px){}
 }
 .diag_list{
     text-align: left;
     max-height: auto;
     max-width: 770px;
     width: 770px;
+    @media (max-width:400px){}
 }
 thead{
     height:48px;
+    @media (max-width:400px){}
 }
 tr{
     width: 726px;
+    @media (max-width:400px){}
 }
 .ll{
     width: 79px;
     max-height: auto;
+    @media (max-width:400px){}
 }
 .llsmall{
     height: 40px;
+    @media (max-width:400px){}
 }
 .scroll_cover{
     width: 6px;
@@ -242,25 +253,30 @@ tr{
     background-color: #FFFFFF;
     border-radius:3px;
     justify-content: center;
+    @media (max-width:400px){}
 }
 .scroll_cover:hover{
     background-color: #929292;    
+    @media (max-width:400px){}
 }
 .scroll1{
     width: 6px;
     height: 69px;
     background-color: #072635;
     border-radius: 3px;
+    @media (max-width:400px){}
 }
 .scroll1:hover{
     width: 8px;
     border-radius: 4px;
     margin-left: -1px;
     margin-right: 0px;
+    @media (max-width:400px){}
 }
 .result_download_frame{
     display: flex;
     justify-content: space-between;
+    @media (max-width:400px){}
 }
 .scroll_cover2{
     width: 6px;
@@ -268,25 +284,30 @@ tr{
     border-radius:3px;
     justify-content: center;
     height: 200px;
+    @media (max-width:400px){}
 }
 .scroll_cover2:hover{
     background-color: #929292;
+    @media (max-width:400px){}
 }
 .scroll2{
     height: 40px;
     width: 6px;
     border-radius: 3px;
     background-color: #072635
+    @media (max-width:400px){}
 }
 .scroll2:hover{
     width: 8px;
     border-radius: 4px;
     margin-left: -1px;
     margin-right: 0px;
+    @media (max-width:400px){}
 }
 .patient_info{
     display: flex;
     align-items: center;
+    @media (max-width:400px){}
 }
 .show_info{
     border-radius: 41px;
@@ -301,9 +322,11 @@ tr{
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    @media (max-width:400px){}
     }
 .show_info2{
     padding-left:24px;
+    @media (max-width:400px){}
 }
 .result_list{
     display: flex;
@@ -313,8 +336,10 @@ tr{
     justify-content: space-between;
     align-items: center;
     line-height: 40px;
+    @media (max-width:400px){}
 }
 .result_type{
     padding-left: 16px;
     padding-right: 70px;
+    @media (max-width:400px){}
 }
