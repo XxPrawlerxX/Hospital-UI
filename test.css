@@ -11,6 +11,7 @@
     font-weight: 800;
     color: #072635;
     line-height: 41px;
+    text-align: left;
 }
 .setup{
     display: grid;
