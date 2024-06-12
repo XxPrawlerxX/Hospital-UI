@@ -294,7 +294,7 @@ tr{
     height: 40px;
     width: 6px;
     border-radius: 3px;
-    background-color: #072635
+    background-color: #072635;
     @media (max-width:400px){}
 }
 .scroll2:hover{
