@@ -18,14 +18,8 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     width: 766px;
-    text-align: left;
     @media (max-width:400px) {
-        max-width: 100%;
-        max-height: auto;
-        font-size: x-small;
-    }
-    @media screen {
-        max-width: 100%;
+        max-width: 400px;
         max-height: auto;
     }
 }
@@ -63,13 +57,9 @@
     width: 625.27px;
     height: 144px;
     @media (max-width:400px) {
-        max-width: 70vw;
+        max-width: 300px;
         max-height: auto;
-        font-size: x-small;
-    }
-    @media screen {
-        max-width: 80vw;
-        max-height: auto;
+        
     }
 }
 .x1{
