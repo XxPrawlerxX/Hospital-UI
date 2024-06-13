@@ -19,7 +19,7 @@
     grid-template-rows: auto;
     width: 766px;
     @media (max-width:400px) {
-        max-width: 400px;
+        max-width: 80vw;
         max-height: auto;
     }
 }
@@ -57,7 +57,7 @@
     width: 625.27px;
     height: 144px;
     @media (max-width:400px) {
-        max-width: 300px;
+        max-width: 80vw;
         max-height: auto;
         
     }
