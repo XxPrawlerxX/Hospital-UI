@@ -18,6 +18,9 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     width: 766px;
+    @media (max-width:400px) {
+        max-width: 400px;
+    }
 }
 .y1{    
     grid-row: 1/2;
@@ -52,6 +55,11 @@
     grid-column: 2/8;
     width: 625.27px;
     height: 144px;
+    @media (max-width:400px) {
+        max-width: 300px;
+        max-height: auto;
+        
+    }
 }
 .x1{
     grid-row: 7/8;
