@@ -68,7 +68,9 @@ body{
 }
 .logo{
     grid-column: 1/2;
-    @media (max-width:400px){}
+    @media (max-width:400px){
+        
+    }
 }
 .account{
     display: flex;
