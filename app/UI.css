@@ -273,12 +273,16 @@ tr{
     border-radius: 4px;
     margin-left: -1px;
     margin-right: 0px;
-    @media (max-width:400px){}
+    @media (max-width:400px){
+        opacity: 0;
+    }
 }
 .result_download_frame{
     display: flex;
     justify-content: space-between;
-    @media (max-width:400px){}
+    @media (max-width:400px){
+        display: block;
+    }
 }
 .scroll_cover2{
     width: 6px;
@@ -286,18 +290,24 @@ tr{
     border-radius:3px;
     justify-content: center;
     height: 200px;
-    @media (max-width:400px){}
+    @media (max-width:400px){
+        opacity: 0;
+    }
 }
 .scroll_cover2:hover{
     background-color: #929292;
-    @media (max-width:400px){}
+    @media (max-width:400px){
+        opacity: 0;
+    }
 }
 .scroll2{
     height: 40px;
     width: 6px;
     border-radius: 3px;
-    background-color: #072635
-    @media (max-width:400px){}
+    background-color: #072635;
+    @media (max-width:400px){
+        opacity: 0;
+    }
 }
 .scroll2:hover{
     width: 8px;
